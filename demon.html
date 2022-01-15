@@ -1,0 +1,222 @@
+
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=9"/>
+    <meta name="google-signin-client_id" content="811325578227-4gm87a11n1qlqpnsb7gejbps03cb7hmn.apps.googleusercontent.com"/>
+    <meta name="viewport" content="width=700"/>
+    <meta name="title" content="The most elegant online learning and training platform"/>
+    <meta name="description" content="Schoox offers the most powerful and modern learning and knowledge management system for your organization"/>
+    <meta name="keywords" content="learning management system, online training, staff training, corporate training, learning"/>
+
+    <title>Login - The most elegant online learning and training platform</title>
+
+    <style type="text/css">
+        @font-face {
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            src: url('https://www.schoox.com/theme/schoox/assets/general/font/open-sans-v13-latin_greek-regular.eot'); /* IE9 Compat Modes */
+            src: local('Open Sans'), local('OpenSans'),
+            url('https://www.schoox.com/theme/schoox/assets/general/font/open-sans-v13-latin_greek-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+            url('https://www.schoox.com/theme/schoox/assets/general/font/open-sans-v13-latin_greek-regular.woff2') format('woff2'), /* Super Modern Browsers */
+            url('https://www.schoox.com/theme/schoox/assets/general/font/open-sans-v13-latin_greek-regular.woff') format('woff'), /* Modern Browsers */
+            url('https://www.schoox.com/theme/schoox/assets/general/font/open-sans-v13-latin_greek-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+            url('https://www.schoox.com/theme/schoox/assets/general/font/open-sans-v13-latin_greek-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+        }
+    </style>
+
+    <!-- Favicon -->
+    <link href="https://www.schoox.com/theme/schoox/images/favicon.png" rel="shortcut icon" />
+    <link href="https://www.schoox.com/theme/schoox/assets/home/css/login.css?c=3ce845a2e5ac1142fad3e430a1da2f07" rel="stylesheet" type="text/css"/>
+    <link href="https://assets.schoox.com/icons/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://www.schoox.com/theme/schoox/assets/general/less/helpers.css" rel="stylesheet" type="text/css"/>
+
+    <!-- Skin -->
+    
+    <!-- jQuery -->
+    <script type="text/javascript" src="https://www.schoox.com/theme/minified/scripts/jquery.js?c=1"></script>
+    <script type="text/javascript" src="https://www.schoox.com/theme/minified/assets/general/js/jquery.html5-placeholder-shim.js"></script>
+
+    <!-- MomentJS with locales -->
+    <script type="text/javascript" src="https://www.schoox.com/theme/schoox/scripts/moment-with-locales.js"></script>
+    <script type="text/javascript" src="https://www.schoox.com/theme/schoox/scripts/moment-timezone-with-data.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="https://www.schoox.com/theme/schoox/assets/general/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Help Widget -->
+    <!-- Help Widget style -->
+<link rel="stylesheet" href="https://www.schoox.com/@chameleon/help-widget-we/help-widget-we.min.css?v=1.2.4"/>
+    <!-- Google analytics -->
+    <script src="https://apis.google.com/js/api:client.js"></script>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-3125529-3', 'auto');
+        ga('require', 'displayfeatures');
+        ga('send', 'pageview');
+    </script>
+</head>
+<body ng-app class="inLogin">
+
+<form action="/login/index.php" name="loginForm" method="post">
+
+
+    <div id="main" class="default">
+        <div class="left">
+            <div>
+                <header>
+                    <a class="logo-default focus-link" href="/"><img src="https://www.schoox.com/theme/schoox/assets/home/images/login_2017/schoox_logo_2017.png" alt="Schoox Homepage"/></a>
+
+                    <h1>Please Log In                    </h1>
+                </header>
+                <main>
+                    <input name="csrfToken" type="hidden" value="aWTigmHcfa1jxpiCkSVlgrYHdfkA1ruS">
+                    <input name="timeZone" id="timeZone" type="hidden" value="">
+                    <input name="client_id" id="client_id" type="hidden" value="811325578227-4gm87a11n1qlqpnsb7gejbps03cb7hmn.apps.googleusercontent.com">
+                    <input aria-describedby="errorAlert" aria-required="true" name="username" autofocus type="text" placeholder="Email or Username" aria-label="Email or Username"
+                           value=""/>
+                    <input aria-required="true" name="password" type="password" autocomplete="off" placeholder="Password" aria-label="Password"/>
+                                            <p class="alert" id="errorAlert"></p>
+                                        <div class="login-btn-container" type="footer">
+                        <input type="submit" value="Login" name="button" class="loginButton"/>
+                                                    <a href="https://www.schoox.com/recover.php" class="forgot">Forgot your password?</a>
+                                            </div>
+                    <div class="extraLink">
+                                            </div>
+                </main>
+            </div>
+        </div><div class="right">
+            <div>
+                <div class="extra_buttons" role="complementary">
+                    <div class="d">
+                        <hr>
+                            <span>
+                                <b id="orSignInWith">or Sign in with</b>
+                            </span>
+                        <hr>
+                    </div>
+                    <ul class="buttons" aria-labelledby="orSignInWith">
+                        <li>
+                            <a tabindex="0" aria-label="Third Party Login" role="button" href="/login.php?t=1&r=" id="third-login-button" class="btn">
+                                <i class="schoox schoox-third_party_login2"></i> <span>Third Party Login</span>
+                            </a>
+                        </li><li>
+                            <div id="yammer" class="socialB">
+
+                                <a tabindex="0" aria-label="Yammer Login" role="button" id="yammer-login-button" class="btn">
+                                    <i class="schoox schoox-yammer2"></i> <span>Yammer Login</span>
+                                </a>
+
+                                                                    <script type="text/javascript" data-app-id="b1SKpe4h608H83M2wfqSg"
+                                            src="/theme/schoox/scripts/yammer/platform_js_sdk.js"></script>
+
+                                    <script>
+
+                                        yam.connect.loginButton('#yammer-login-button', function (response) {
+
+                                                                                        if (response.authResponse) {
+                                                //Yammer changed the response access_token name -- and... they reverted it back.
+                                                //post('http://www.schoox.com/yammer_login.php', {'access_token' : response.web_oauth_access_token})
+                                                post('https://www.schoox.com/yammer_login.php', {'access_token': response.access_token['token']});
+                                            }
+                                            
+                                            // Post to the provided URL with the specified parameters.
+                                            function post(path, parameters) {
+
+                                                var form = $('<form></form>');
+
+                                                form.attr("method", "post");
+                                                form.attr("action", path);
+
+                                                $.each(parameters, function (key, value) {
+                                                    var field = $('<input></input>');
+
+                                                    field.attr("type", "hidden");
+                                                    field.attr("name", key);
+                                                    field.attr("value", value);
+
+                                                    form.append(field);
+                                                });
+
+                                                // The form needs to be a part of the document in
+                                                // order for us to be able to submit it.
+                                                $(document.body).append(form);
+                                                form.submit();
+                                            }
+
+                                        });
+                                    </script>
+                                                            </div>
+
+                        </li><li>
+                            <div id="fb" class="socialB">
+
+                                <a tabindex="0" aria-label="Login with Facebook" role="button" id="facebook-login-button" class="btn" onclick="fb_login();">
+                                    <i class="schoox schoox-facebook2_new"></i> <span>Login with Facebook</span>
+                                </a>
+
+                                <div id="fb-root"></div>
+
+                                <input type="hidden" value=188779093066 id='fbappid'>
+                                <input type="hidden" value=-1 id='logout'>
+                                <input type="hidden" value=https://www.schoox.com id='wwwroot'>
+
+                            </div>
+                        </li><li>
+                            <a tabindex="0" aria-label="Login with Google" role="button" id="google-login-button" class="btn">
+                                <i ><img alt="" aria-hidden="true" src="https://www.schoox.com/theme/schoox/images/login/google.svg"></i> <span>Login with Google</span>
+                            </a>
+                        </li><li>
+                            <a tabindex="0" aria-label="HotSchedules Login" role="button" href="/login/hotSchedules.php" id="hs-login-button" class="btn">
+                                <i class="schoox schoox-hotschedules2"></i> <span>HotSchedules Login</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="appIcons">
+            </div>
+
+    
+    <input type="hidden" value="" name="redirect"/>
+    <input type="hidden" value="" name="who"/>
+    <input type="hidden" value="" name="i"/>
+    <input type="hidden" value="" name="a"/>
+    <input type="hidden" value="" name="ev"/>
+</form>
+
+    <script type="text/javascript" src="https://www.schoox.com/theme/schoox/assets/home/js/login.js?c=27b6e77593da1ec3269ed734d419bbbe"></script>
+
+<cl-help-widget
+    cl-academy=""
+    cl-user=""
+    cl-settings='{"position":"se","isChina":false,"widgetOrigin":"login","recaptcha":{"siteKey":"6Lfk2WwUAAAAANK18IjoCjcDdRYuxWB8hjoXTnVD"}}'
+    cl-i18n-legacy='{&quot;HelpWidget&quot;:{&quot;showMore&quot;:&quot;Show More&quot;,&quot;buttonText&quot;:&quot;Help&quot;,&quot;formFieldName&quot;:&quot;Name&quot;,&quot;formFieldNamePlaceholder&quot;:&quot;John Smith&quot;,&quot;formFieldUsername&quot;:&quot;Username&quot;,&quot;formFieldUsernamePlaceholder&quot;:&quot;Enter username&quot;,&quot;formFieldEmail&quot;:&quot;Email address&quot;,&quot;formFieldEmailPlaceholder&quot;:&quot;Enter email&quot;,&quot;formFieldSubject&quot;:&quot;Subject&quot;,&quot;formFieldMessage&quot;:&quot;Message&quot;,&quot;formButtonUpload&quot;:&quot;Upload Attachment&quot;,&quot;formButtonSend&quot;:&quot;Send Message&quot;,&quot;Contact Support&quot;:&quot;Contact Support&quot;,&quot;Contact CFA HELP&quot;:&quot;Contact CFA HELP&quot;,&quot;Contact Schoox Support&quot;:&quot;Contact Schoox Support&quot;,&quot;Schoox Show Me How&quot;:&quot;Schoox Show Me How&quot;,&quot;Show Me How&quot;:&quot;Show Me How&quot;,&quot;Quick-Start Guide&quot;:&quot;Quick-Start Guide&quot;,&quot;Schedule a TCOM Coaching Session&quot;:&quot;Schedule a TCOM Coaching Session&quot;,&quot;FAQ&quot;:&quot;FAQ&quot;,&quot;Guides&quot;:&quot;Guides&quot;,&quot;BNI U Help Desk&quot;:&quot;BNI U Help Desk&quot;,&quot;Support Voicemail: 872-216-6658&quot;:&quot;Support Voicemail: 872-216-6658&quot;,&quot;Attend a Schoox webinar&quot;:&quot;Attend a Schoox webinar&quot;,&quot;Attend a webinar&quot;:&quot;Attend a webinar&quot;,&quot;Support Center&quot;:&quot;Support Center&quot;,&quot;Schoox Help Center&quot;:&quot;Schoox Help Center&quot;,&quot;Schoox Resources&quot;:&quot;Schoox Resources&quot;,&quot;Help Center&quot;:&quot;Help Center&quot;,&quot;Frequently Asked Questions&quot;:&quot;Frequently Asked Questions&quot;,&quot;Intro Video&quot;:&quot;Intro Video&quot;},&quot;Wait&quot;:{&quot;label&quot;:&quot;Please Wait&quot;}}'></cl-help-widget>
+
+    <!-- Help Widget Web Element -->
+<script type="text/javascript" src="https://www.schoox.com/@chameleon/help-widget-we/help-widget-we.js?v=1.2.4"></script>
+<script type="text/javascript" src="https://www.schoox.com/theme/schoox/assets/general/js/help-widget/help-widget-initializer.js"></script>
+<!-- END Help Widget Web Element --></body>
+</html>
